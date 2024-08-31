@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <img src="https://www.heritagechristiancollege.com/wp-content/uploads/2019/05/free-recipe-website-template-of-mixing-food-and-romance-at-the-library-the-clare-champion-of-free-recipe-website-template.png" alt="recepie image">
+    <div class="container">
+        <h1>Recipe App</h1>
+        <form id="recipe-form">
+            <input type="text" id="recipe-name" placeholder="Recipe Name" required>
+            <textarea id="recipe-ingredients" placeholder="Ingredients" required></textarea>
+            <input type="file" id="recipe-image" accept="image/*" required>
+            <button type="submit">Add Recipe</button>
+        </form>
+        <div id="recipes"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
